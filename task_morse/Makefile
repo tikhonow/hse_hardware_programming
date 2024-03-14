@@ -7,6 +7,8 @@ RIOTBASE ?= $(CURDIR)/../..
 USEMODULE += xtimer
 USEMODULE += periph_gpio
 USEMODULE += periph_gpio_irq
+USEMODULE += atomic_utils
+PORT_DARWIN = /dev/tty.usbserial-0001
 
 .PHONY: ask-input
 
